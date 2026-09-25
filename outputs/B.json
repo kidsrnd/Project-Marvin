@@ -1,0 +1,98 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Why did Marvin have to write his report a second time?",
+      "options": [
+        "A Mrs. North could not read his writing.",
+        "B Marvin forgot to write about Prince Robert.",
+        "C Marvin did not finish before the bell rang.",
+        "D Mrs. North said he was not left-handed."
+      ],
+      "answer": "A",
+      "evidence_quote": "Mrs. North looked at it. 'I can't read this,' she said. He had to copy it over.",
+      "distractor_evidence": {
+        "B": "Marvin's report is about Prince Robert, so he did write about him; wrong because the reason for rewriting was unreadable handwriting, not missing content.",
+        "C": "Marvin finished writing just as the bell rang for recess — he did finish before the bell; wrong person-event link.",
+        "D": "Mrs. North said 'I'm left-handed,' confirming Marvin is left-handed too; this event appears but the relationship is wrong."
+      },
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "Mrs. North said that being left-handed means you have royal blood. How did Marvin feel when he heard this?",
+      "options": [
+        "A He was angry because Mrs. North was also left-handed.",
+        "B He was happy because he finished his report first.",
+        "C He frowned because he thought left-handed writing was impossible.",
+        "D He smiled because he knew he had royal blood."
+      ],
+      "answer": "C",
+      "evidence_quote": "Marvin frowned. ... 'It's impossible to write neatly when you're left-handed. Everything is backwards.'",
+      "distractor_evidence": {
+        "A": "Marvin said 'Oh' when he learned Mrs. North was also left-handed — this shows surprise, not anger; wrong feeling.",
+        "B": "Marvin was the first one done, but that happened before the royal-blood comment; wrong sequence link.",
+        "D": "It was Mrs. North who smiled, not Marvin; wrong person."
+      },
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "Why did Marvin write his second report as fast as he could?",
+      "options": [
+        "A He wanted to go to Washington, D.C. to find the king.",
+        "B He wanted to catch up with the other students.",
+        "C Mrs. North told him to write faster this time.",
+        "D The bell for recess rang while he was writing."
+      ],
+      "answer": "B",
+      "evidence_quote": "He picked up his pencil and wrote as fast as he could. He had to write twice as fast this time, just to catch up with everyone else.",
+      "distractor_evidence": {
+        "A": "Washington, D.C. appears in Marvin's report about the king, not as Marvin's reason for writing fast; wrong relationship.",
+        "C": "Mrs. North told him to slow down and write neater, not to write faster; wrong direction of instruction.",
+        "D": "The bell rang after he finished the second report; wrong sequence."
+      },
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": ""
+    },
+    {
+      "id": 4,
+      "type": "short",
+      "question": "At the end of the chapter, Marvin is nine years old, has red hair, and has blue eyes. Why are these three facts important? Write your answer AND say where in the chapter you found the reason.",
+      "answer": "These facts are important because Prince Robert — the lost son the king is looking for — is also nine years old, has red hair, and has blue eyes. This means Marvin could be Prince Robert. The connection is found in Marvin's Current Events report, where he writes that Prince Robert 'has red hair and blue eyes' and is nine years old, and then at the very end of the chapter, the narrator tells us Marvin shares all three of those same details.",
+      "evidence_quote": "Prince Robert is nine years old. He has red hair and blue eyes. ... Marvin was nine years old. He had red hair. He had blue eyes.",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "Student must connect the two sets of facts — from the report and from the final paragraph — to earn credit. Simply quoting one set without linking them earns partial credit."
+    },
+    {
+      "id": 5,
+      "type": "cr",
+      "question": "Do you think Marvin is a good student? Use what happens in the chapter to explain your answer.",
+      "rubric": {
+        "key_elements": "A full answer names at least one thing Marvin does well (e.g., he finishes first, he writes his report about what he read in Current Events, he goes outside to play only after handing in his work) AND at least one thing that causes him trouble (e.g., his writing is so messy Mrs. North cannot read it, he writes too fast and has to do it again, he writes fast the second time even though Mrs. North said to slow down). The student must explain WHY the evidence shows something about Marvin as a student.",
+        "accepted_evidence_locations": "Any of these sentences: 'He was the first one done.' / 'I can't read this.' / 'Neater this time, Marvin.' / 'He picked up his pencil and wrote as fast as he could.' / 'You'd write neater if you slowed down.' / 'Marvin finished writing just as the bell rang for recess.'",
+        "example_4pt": "Marvin finishes first so he works hard, but his writing is too fast and messy so Mrs. North cannot read it. Even after she says to slow down, he writes fast again. So he is a little good but also makes the same mistake.",
+        "example_2pt": "Marvin is not a good student because Mrs. North said she can't read his writing.",
+        "example_0pt": "Yes Marvin is good because he has red hair."
+      },
+      "evidence_quote": "He was the first one done. ... 'I can't read this,' she said. He had to copy it over. ... 'You'd write neater if you slowed down,' she said. 'It isn't a race.' He returned to his seat. He picked up his pencil and wrote as fast as he could.",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": ""
+    }
+  ]
+}

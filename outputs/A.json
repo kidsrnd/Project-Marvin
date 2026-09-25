@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Why did Marvin have to copy his report again?",
+      "options": [
+        "A He forgot to write his name.",
+        "B Mrs. North could not read his writing.",
+        "C He made too many spelling mistakes.",
+        "D He wrote about the wrong topic."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "What does Mrs. North say being left-handed means?",
+      "options": [
+        "A It means you have royal blood.",
+        "B It means you will always write slowly.",
+        "C It means you are very smart.",
+        "D It means writing is impossible."
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "Where is the King of Shampoon looking for his son this week?",
+      "options": [
+        "A In Marvin's small town.",
+        "B In a palace far away.",
+        "C In Washington, D.C.",
+        "D In Prince Robert's school."
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "type": "short",
+      "question": "Look at Marvin's report. Find THREE things that describe Prince Robert.",
+      "answer": "Prince Robert has red hair and blue eyes, and he is nine years old."
+    },
+    {
+      "id": 5,
+      "type": "cr",
+      "question": "At the end of the chapter, we learn that Marvin is nine years old, has red hair, and has blue eyes — just like Prince Robert. Do you think Marvin could be the lost prince? Why or why not?",
+      "sample_answer": "I think Marvin might be the lost prince because he is nine years old, has red hair, and has blue eyes, just like Prince Robert. He also lives near Washington, D.C., where the king is searching. These clues make it seem possible that Marvin could be the missing prince."
+    }
+  ]
+}
