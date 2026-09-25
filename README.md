@@ -9,7 +9,7 @@
 ## 폴더
 
 ```
-marvin_prototype/
+Project-Marvin/
 ├─ run_ab.py            ← 실행 파일
 ├─ prompts/prompt_A.md  ← 검수 없는 프롬프트 (비교군)
 ├─ prompts/prompt_B.md  ← 검수 있는 프롬프트 (실험군)
@@ -21,7 +21,7 @@ marvin_prototype/
 ## 실행 5단계
 
 1. 터미널에서 이 폴더로 이동
-   `cd marvin_prototype`
+   `cd Project-Marvin`
 2. 패키지 설치 (한 번만)
    `pip install anthropic`
 3. API 키 설정 (한 번만, 터미널 창마다)
