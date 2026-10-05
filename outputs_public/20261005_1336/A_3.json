@@ -1,0 +1,57 @@
+{
+  "book": {
+    "book_id": "marvin01",
+    "title": "Marvin Redpost: Kidnapped at Birth?",
+    "author": "Louis Sachar",
+    "isbn": "(입력: 보유 판본 ISBN)",
+    "edition": "(입력: 예 Random House 1992 paperback)"
+  },
+  "chapter": "chapter01",
+  "condition": "A",
+  "repeat": "3",
+  "items": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Why did Marvin have to copy his report again?",
+      "options": [
+        "A He forgot to write his name.",
+        "B Mrs. North could not read his writing.",
+        "C He wrote about the wrong topic.",
+        "D He lost his first report."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "What does Mrs. North say being left-handed means?",
+      "options": [
+        "A It means you have royal blood.",
+        "B It means you write very fast.",
+        "C It means you are very smart.",
+        "D It means you will be a teacher."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "What does Marvin write his report about?",
+      "options": [
+        "A A trip to Washington, D.C.",
+        "B A school play about a prince.",
+        "C A king searching for his lost son.",
+        "D A newspaper for grown-ups."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "short",
+      "question": "Look at the text. What are three things that Marvin and Prince Robert have in common?"
+    },
+    {
+      "id": 5,
+      "type": "cr",
+      "question": "Do you think Marvin might really be Prince Robert? Why or why not?"
+    }
+  ]
+}

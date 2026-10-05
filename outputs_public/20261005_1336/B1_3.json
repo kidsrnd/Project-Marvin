@@ -1,0 +1,57 @@
+{
+  "book": {
+    "book_id": "marvin01",
+    "title": "Marvin Redpost: Kidnapped at Birth?",
+    "author": "Louis Sachar",
+    "isbn": "(입력: 보유 판본 ISBN)",
+    "edition": "(입력: 예 Random House 1992 paperback)"
+  },
+  "chapter": "chapter01",
+  "condition": "B1",
+  "repeat": "3",
+  "items": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Why did Marvin have to write his report a second time?",
+      "options": [
+        "A He wrote about the wrong story in Current Events.",
+        "B Mrs. North could not read his writing.",
+        "C He finished too late and missed recess.",
+        "D He used the wrong kind of pencil."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "Mrs. North said that left-handed people are lucky. What was her reason?",
+      "options": [
+        "A Left-handed people can write faster than others.",
+        "B Left-handed people finish their work first.",
+        "C Left-handed people find cursive writing easy.",
+        "D Left-handed people have royal blood."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "After Marvin returned to his seat the second time, why did he write as fast as he could?",
+      "options": [
+        "A He wanted to show Mrs. North he could write neatly.",
+        "B He was trying to win a race against his classmates.",
+        "C He needed to catch up with everyone else before the bell rang.",
+        "D He was excited about going to Washington, D.C."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "short",
+      "question": "What do we learn about Prince Robert that is also true about Marvin? Give two things, and say where in the chapter you found this."
+    },
+    {
+      "id": 5,
+      "type": "cr",
+      "question": "At the end of the chapter, the writer tells us that Marvin is nine years old, has red hair and blue eyes, and lives near Washington, D.C. Why is this information important? What do you think Marvin might start to wonder about himself?"
+    }
+  ]
+}

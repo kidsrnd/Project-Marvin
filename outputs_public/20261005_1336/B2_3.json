@@ -1,0 +1,218 @@
+{
+  "book": {
+    "book_id": "marvin01",
+    "title": "Marvin Redpost: Kidnapped at Birth?",
+    "author": "Louis Sachar",
+    "isbn": "(입력: 보유 판본 ISBN)",
+    "edition": "(입력: 예 Random House 1992 paperback)"
+  },
+  "chapter": "chapter01",
+  "condition": "B2",
+  "repeat": "3",
+  "items": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Why did Marvin have to write his report a second time?",
+      "options": [
+        "A Mrs. North could not read his writing.",
+        "B Marvin forgot to write 'The End' at the bottom.",
+        "C Marvin wrote about the wrong topic.",
+        "D Mrs. North wanted him to use cursive writing."
+      ],
+      "target_event": "when Mrs. North looks at Marvin's first report and sends him back",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q1-e1",
+        "label": "support",
+        "paragraph": 4,
+        "start": 184,
+        "end": 263,
+        "match": "exact"
+      },
+      "distractor_evidence": {
+        "B": {
+          "evidence_id": "marvin01-chapter01-q1-e2",
+          "label": "contradict",
+          "paragraph": 13,
+          "start": 1026,
+          "end": 1064,
+          "match": "exact"
+        },
+        "C": {
+          "evidence_id": "marvin01-chapter01-q1-e3",
+          "label": "contradict",
+          "paragraph": 12,
+          "start": 916,
+          "end": 980,
+          "match": "exact"
+        },
+        "D": {
+          "evidence_id": "marvin01-chapter01-q1-e4",
+          "label": "insufficient",
+          "paragraph": 6,
+          "start": 325,
+          "end": 396,
+          "match": "exact"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "What did Mrs. North tell Marvin to do so his writing would be neater?",
+      "options": [
+        "A Stop using his left hand and write with his right hand.",
+        "B Slow down because it is not a race.",
+        "C Write the report again on a new piece of paper.",
+        "D Read Current Events one more time before writing."
+      ],
+      "target_event": "when Mrs. North gives Marvin advice before he returns to his seat",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q2-e1",
+        "label": "support",
+        "paragraph": 10,
+        "start": 688,
+        "end": 757,
+        "match": "exact"
+      },
+      "distractor_evidence": {
+        "A": {
+          "evidence_id": "marvin01-chapter01-q2-e2",
+          "label": "contradict",
+          "paragraph": 8,
+          "start": 532,
+          "end": 567,
+          "match": "exact"
+        },
+        "C": {
+          "evidence_id": "marvin01-chapter01-q2-e3",
+          "label": "contradict",
+          "paragraph": 4,
+          "start": 240,
+          "end": 263,
+          "match": "exact"
+        },
+        "D": {
+          "evidence_id": "marvin01-chapter01-q2-e4",
+          "label": "insufficient",
+          "paragraph": 12,
+          "start": 916,
+          "end": 980,
+          "match": "exact"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "After going back to his seat, how did Marvin write his report?",
+      "options": [
+        "A He wrote slowly and carefully, as Mrs. North said.",
+        "B He stopped writing and waited for Mrs. North to help.",
+        "C He wrote as fast as he could to catch up with everyone else.",
+        "D He asked a friend to help him finish the report."
+      ],
+      "target_event": "when Marvin returns to his seat to copy the report over",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q3-e1",
+        "label": "support",
+        "paragraph": 11,
+        "start": 783,
+        "end": 915,
+        "match": "exact"
+      },
+      "distractor_evidence": {
+        "A": {
+          "evidence_id": "marvin01-chapter01-q3-e2",
+          "label": "contradict",
+          "paragraph": 10,
+          "start": 688,
+          "end": 757,
+          "match": "exact"
+        },
+        "B": {
+          "evidence_id": "marvin01-chapter01-q3-e3",
+          "label": "contradict",
+          "paragraph": 11,
+          "start": 758,
+          "end": 782,
+          "match": "exact"
+        },
+        "D": {
+          "evidence_id": "marvin01-chapter01-q3-e4",
+          "label": "contradict",
+          "paragraph": 3,
+          "start": 87,
+          "end": 149,
+          "match": "exact"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "short",
+      "question": "Marvin and Prince Robert are the same in three ways. What are two of them? Where in the chapter did you find this?",
+      "answer_location": "Near the end of the chapter, in Marvin's report and in the last paragraph.",
+      "target_event": "when the reader sees Marvin's details after reading his report about Prince Robert",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q4-e1",
+        "label": "support",
+        "paragraph": 14,
+        "start": 1215,
+        "end": 1344,
+        "match": "exact"
+      }
+    },
+    {
+      "id": 5,
+      "type": "cr",
+      "question": "At the end of the chapter, the writer tells us three things about Marvin that are also true of Prince Robert. Why do you think the writer does this? Use what you read to explain your answer.",
+      "target_event": "when the last paragraph lists Marvin's age, hair color, eye color, and location after his report about Prince Robert",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q5-e1",
+        "label": "support",
+        "paragraph": 16,
+        "start": 1575,
+        "end": 1696,
+        "match": "exact"
+      },
+      "rubric_fields": [
+        "accepted_evidence_locations",
+        "example_0pt",
+        "example_2pt",
+        "example_4pt",
+        "key_elements"
+      ]
+    }
+  ]
+}

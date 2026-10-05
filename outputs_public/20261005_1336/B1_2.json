@@ -1,0 +1,57 @@
+{
+  "book": {
+    "book_id": "marvin01",
+    "title": "Marvin Redpost: Kidnapped at Birth?",
+    "author": "Louis Sachar",
+    "isbn": "(입력: 보유 판본 ISBN)",
+    "edition": "(입력: 예 Random House 1992 paperback)"
+  },
+  "chapter": "chapter01",
+  "condition": "B1",
+  "repeat": "2",
+  "items": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Why did Marvin have to write his report a second time?",
+      "options": [
+        "A He did not write about the right topic.",
+        "B Mrs. North could not read his writing.",
+        "C He forgot to write 'The End' at the bottom.",
+        "D He finished the report after the bell rang."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "Mrs. North said that left-handed people have royal blood. How did this make Marvin feel?",
+      "options": [
+        "A He felt proud and slowed down his writing.",
+        "B He felt angry and put down his pencil.",
+        "C He felt worried because he was not royal.",
+        "D He felt better, but he still wrote as fast as he could."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "Why was Marvin writing his report as fast as he could the second time?",
+      "options": [
+        "A He wanted to go outside before the bell rang.",
+        "B Mrs. North told him it was a race.",
+        "C He felt he needed to catch up with everyone else.",
+        "D He was left-handed and could not write slowly."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "short",
+      "question": "What does Marvin look like, and why might this be important in the story? Tell where in the chapter you found your answer."
+    },
+    {
+      "id": 5,
+      "type": "cr",
+      "question": "At the end of the chapter, we learn that Marvin lives near Washington, D.C. Why is this detail important? Use what you know from the whole chapter to explain your answer."
+    }
+  ]
+}

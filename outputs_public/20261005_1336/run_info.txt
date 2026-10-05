@@ -1,0 +1,6 @@
+model=claude-sonnet-4-6
+level=Pupa (Korean elementary, about grade 3-4)
+vocab_tier=2000
+repeats=3
+conditions=['A', 'B1', 'B2']
+chapter=data\chapter01.txt

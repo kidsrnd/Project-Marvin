@@ -1,0 +1,57 @@
+{
+  "book": {
+    "book_id": "marvin01",
+    "title": "Marvin Redpost: Kidnapped at Birth?",
+    "author": "Louis Sachar",
+    "isbn": "(입력: 보유 판본 ISBN)",
+    "edition": "(입력: 예 Random House 1992 paperback)"
+  },
+  "chapter": "chapter01",
+  "condition": "B1",
+  "repeat": "1",
+  "items": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Why did Marvin have to write his report a second time?",
+      "options": [
+        "A He wrote about the wrong topic from Current Events.",
+        "B Mrs. North could not read his writing.",
+        "C He did not finish before the bell rang.",
+        "D He wrote the report too slowly."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "Mrs. North said that left-handed people have royal blood. How did this make Marvin feel?",
+      "options": [
+        "A Angry, because he still had to copy his report over.",
+        "B Sad, because he was the only left-handed student.",
+        "C Happy, because it meant he did not need to write neatly.",
+        "D Surprised, because he did not know Mrs. North was also left-handed."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "Mrs. North told Marvin to slow down when he wrote. What did Marvin do instead?",
+      "options": [
+        "A He asked a friend to help him write more neatly.",
+        "B He stopped writing and went outside to play.",
+        "C He wrote as fast as he could to catch up with everyone else.",
+        "D He waited for Mrs. North to check his work first."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "short",
+      "question": "What details about Marvin are also true of Prince Robert? Give at least two details AND say where in the chapter you found the answer."
+    },
+    {
+      "id": 5,
+      "type": "cr",
+      "question": "Think about the details at the end of the chapter. Why might Marvin start to wonder if he is really Prince Robert? Use details from the chapter in your answer."
+    }
+  ]
+}

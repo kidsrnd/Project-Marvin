@@ -1,0 +1,57 @@
+{
+  "book": {
+    "book_id": "marvin01",
+    "title": "Marvin Redpost: Kidnapped at Birth?",
+    "author": "Louis Sachar",
+    "isbn": "(입력: 보유 판본 ISBN)",
+    "edition": "(입력: 예 Random House 1992 paperback)"
+  },
+  "chapter": "chapter01",
+  "condition": "A",
+  "repeat": "1",
+  "items": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Why does Marvin have to copy his report again?",
+      "options": [
+        "A. He wrote the wrong information.",
+        "B. His writing was too messy to read.",
+        "C. He forgot to write his name.",
+        "D. He did not finish the report."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "What does Mrs. North say about being left-handed?",
+      "options": [
+        "A. It means you have royal blood.",
+        "B. It means you will write slowly.",
+        "C. It means writing is impossible.",
+        "D. It means you are very lucky at sports."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "Where is the King of Shampoon looking for his son this week?",
+      "options": [
+        "A. In a small town near Marvin's school.",
+        "B. All around Europe.",
+        "C. In Washington, D.C.",
+        "D. In the kingdom of Shampoon."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "short",
+      "question": "Look at Marvin's report. What does Prince Robert look like? Find two details in the text."
+    },
+    {
+      "id": 5,
+      "type": "cr",
+      "question": "At the end of the chapter, we learn that Marvin is nine years old, has red hair, and has blue eyes — just like Prince Robert. What do you think might happen next in the story? Why do you think that?"
+    }
+  ]
+}

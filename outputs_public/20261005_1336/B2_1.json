@@ -1,0 +1,218 @@
+{
+  "book": {
+    "book_id": "marvin01",
+    "title": "Marvin Redpost: Kidnapped at Birth?",
+    "author": "Louis Sachar",
+    "isbn": "(입력: 보유 판본 ISBN)",
+    "edition": "(입력: 예 Random House 1992 paperback)"
+  },
+  "chapter": "chapter01",
+  "condition": "B2",
+  "repeat": "1",
+  "items": [
+    {
+      "id": 1,
+      "type": "mc",
+      "question": "Why did Marvin have to write his report a second time?",
+      "options": [
+        "A Mrs. North could not read his writing.",
+        "B Marvin forgot to write 'The End' at the bottom.",
+        "C Marvin used the wrong pencil.",
+        "D Mrs. North wanted a longer report."
+      ],
+      "target_event": "when Mrs. North looks at Marvin's report and tells him to copy it over",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q1-e1",
+        "label": "support",
+        "paragraph": 4,
+        "start": 184,
+        "end": 263,
+        "match": "exact"
+      },
+      "distractor_evidence": {
+        "B": {
+          "evidence_id": "marvin01-chapter01-q1-e2",
+          "label": "contradict",
+          "paragraph": 15,
+          "start": 1438,
+          "end": 1445,
+          "match": "exact"
+        },
+        "C": {
+          "evidence_id": "marvin01-chapter01-q1-e3",
+          "label": "insufficient",
+          "paragraph": null,
+          "start": null,
+          "end": null,
+          "match": "not_found"
+        },
+        "D": {
+          "evidence_id": "marvin01-chapter01-q1-e4",
+          "label": "insufficient",
+          "paragraph": 4,
+          "start": 184,
+          "end": 208,
+          "match": "exact"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "mc",
+      "question": "Why did Marvin write as fast as he could the second time?",
+      "options": [
+        "A He wanted to win a race against Mrs. North.",
+        "B He wanted to go outside before the bell rang.",
+        "C He needed to finish before everyone else did.",
+        "D He needed to catch up with the rest of the class."
+      ],
+      "target_event": "when Marvin returns to his seat to copy the report over",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q2-e1",
+        "label": "support",
+        "paragraph": 11,
+        "start": 783,
+        "end": 915,
+        "match": "exact"
+      },
+      "distractor_evidence": {
+        "A": {
+          "evidence_id": "marvin01-chapter01-q2-e2",
+          "label": "contradict",
+          "paragraph": 10,
+          "start": 740,
+          "end": 756,
+          "match": "exact"
+        },
+        "B": {
+          "evidence_id": "marvin01-chapter01-q2-e3",
+          "label": "contradict",
+          "paragraph": 16,
+          "start": 1447,
+          "end": 1504,
+          "match": "exact"
+        },
+        "C": {
+          "evidence_id": "marvin01-chapter01-q2-e4",
+          "label": "contradict",
+          "paragraph": 3,
+          "start": 123,
+          "end": 149,
+          "match": "exact"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": "mc",
+      "question": "What does Mrs. North say being left-handed means?",
+      "options": [
+        "A It means writing is impossible.",
+        "B It means you have royal blood.",
+        "C It means everything is backwards.",
+        "D It means you must slow down."
+      ],
+      "target_event": "when Mrs. North responds to Marvin's complaint about being left-handed",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q3-e1",
+        "label": "support",
+        "paragraph": 10,
+        "start": 587,
+        "end": 668,
+        "match": "exact"
+      },
+      "distractor_evidence": {
+        "A": {
+          "evidence_id": "marvin01-chapter01-q3-e2",
+          "label": "contradict",
+          "paragraph": 7,
+          "start": 397,
+          "end": 531,
+          "match": "fuzzy"
+        },
+        "C": {
+          "evidence_id": "marvin01-chapter01-q3-e3",
+          "label": "contradict",
+          "paragraph": 7,
+          "start": 397,
+          "end": 531,
+          "match": "fuzzy"
+        },
+        "D": {
+          "evidence_id": "marvin01-chapter01-q3-e4",
+          "label": "contradict",
+          "paragraph": 10,
+          "start": 688,
+          "end": 738,
+          "match": "exact"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "short",
+      "question": "Why might Marvin be the lost prince? Give one reason and say where in the chapter you found it.",
+      "answer_location": "Near the end of the chapter, after Marvin's report and after 'The End'.",
+      "target_event": "the details about Marvin given at the very end of the chapter compared to the details about Prince Robert in his report",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q4-e1",
+        "label": "support",
+        "paragraph": 14,
+        "start": 1053,
+        "end": 1437,
+        "match": "fuzzy"
+      }
+    },
+    {
+      "id": 5,
+      "type": "cr",
+      "question": "At the end of the chapter, the reader learns things about Marvin. Why are these things important to the story? Use details from the chapter.",
+      "target_event": "the final paragraph revealing Marvin's age, hair color, eye color, and location after his report about Prince Robert",
+      "evidence_label": "support",
+      "event_match": "yes",
+      "vocab_over": [],
+      "word_matching_risk": "low",
+      "status": "OK",
+      "note": "",
+      "evidence": {
+        "evidence_id": "marvin01-chapter01-q5-e1",
+        "label": "support",
+        "paragraph": 16,
+        "start": 1575,
+        "end": 1696,
+        "match": "exact"
+      },
+      "rubric_fields": [
+        "accepted_evidence_locations",
+        "example_0pt",
+        "example_2pt",
+        "example_4pt",
+        "key_elements"
+      ]
+    }
+  ]
+}
