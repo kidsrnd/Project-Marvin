@@ -137,7 +137,7 @@ def main(run_dir, chapter_path):
     chapter = Path(chapter_path).read_text(encoding="utf-8")
     tag = "v6_1차30" if FIRST30 else "v6"
     pool = load(run, SETS[1:3] if FIRST30 else SETS); random.Random(20261019 if FIRST30 else 20261016).shuffle(pool)
-    for t in ("연구자","교사1","교사2"):   # 연구자 판정과 외부 교사 판정은 파일을 나눠 따로 저장
+    for t in ("연구자","교사1","교사2","교사3"):   # 연구자 판정과 외부 교사 판정은 파일을 나눠 따로 저장
         build(pool, chapter, out/f"judge_sheet_{tag}_{t}.xlsx")
     with open(out/f"judge_key_{tag}.csv","w",newline="",encoding="utf-8-sig") as f:
         w=csv.writer(f); w.writerow(["번호","조건","반복","원래문항번호","유형"])
