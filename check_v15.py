@@ -27,10 +27,12 @@ def usable(row):
 def check(path):
     from openpyxl import load_workbook
     ws = load_workbook(path, data_only=True)["판정"]   # data_only: Q열 수식이 아니라 계산된 값을 읽는다
-    need = "FHIJKLMN"; empty = []; hold = []; clash = []
+    need = "FHIJKLMN"; empty = []; hold = []; clash = []; seen = []
     for r in range(2, ws.max_row + 1):
         n = ws[f"A{r}"].value
         if n is None: continue
+        n = int(float(n))   # XLSX로 내보내면 번호가 1.0 같은 숫자로 읽힘
+        seen.append(n)
         miss = [c for c in need if ws[f"{c}{r}"].value in (None, "")]
         if miss: empty.append((n, miss))
         h = [c for c in "HIJKLMN" if ws[f"{c}{r}"].value == "판단 보류"]
@@ -38,6 +40,8 @@ def check(path):
         want = usable({c: ws[f"{c}{r}"].value for c in "HIJKL"})
         got = ws[f"Q{r}"].value or ""
         if want != got: clash.append((n, got, want))
+    dup = sorted({x for x in seen if seen.count(x) > 1}); gone = sorted(set(range(1, 31)) - set(seen))
+    if dup or gone: print(f"[번호] 중복 {dup} / 누락 {gone} (판정지 번호 1~30이 한 번씩 있어야 함)")
     for n, m in empty: print(f"[미판정] {n}번: {' '.join(m)} 칸이 비어 있음")
     for n, m in hold:  print(f"[보류] {n}번: {' '.join(m)}")
     for n, g, w in clash: print(f"[불일치] {n}번: 판정지 Q='{g}', v1.5 규칙='{w}' (판정값은 고치지 말고 원인을 확인)")
